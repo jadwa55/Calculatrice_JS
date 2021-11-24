@@ -35,5 +35,5 @@ const calculer = (valeur) => {
 }
 
 window.addEventListener('error', (e) => {
-    alert('Ach katkharbe9 ??: ' + e.message)
+    alert('Ach katkharbe9 ??')
 })
