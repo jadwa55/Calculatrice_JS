@@ -75,16 +75,15 @@ body{
 	color:white;
 	height:45px;
 	width:58px;
-  margin-left:8px;
+    margin-left:8px;
 	border-radius:4px;
 	border-top:4px solid #828A9B;
 	text-align:center;
 	font-weight:bold;
-	font-family: 'Ubuntu', sans-serif;
+	/* font-family: 'Ubuntu', sans-serif; */
 	margin-bottom:8px;
-  width:182px;
+    width:182px;
 	background:#828A9B;
-   border-top:4px solid #8fc
 }
 
 .touches{
