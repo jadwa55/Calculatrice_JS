@@ -92,14 +92,29 @@ body{
     grid-template-columns: repeat(4, 50px);
     grid-template-rows: repeat(5, 50px);
     grid-gap: 7px;
+
+    list-style:none;
+    /* float:left; */
+    /* width:100%; */
+   background:white;
+   margin:9px 5px;
+   padding:10px;
+   border-bottom:4px solid #828A9B;
+   border-radius:5px;
+   color:#888888;
+   text-align:center;
+   transition:.2s;
+   cursor:pointer;
+}
+
+.touches button:hover{
+	background: #8fccdb;
+	/* border-bottom: 4px solid #336699; */
+	color: white;
 }
 
 button{
     border-radius: 100px;
-}
-
-.img{
-    width: 30%;
 }
 
 .main-div{
