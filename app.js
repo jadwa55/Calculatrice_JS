@@ -10,7 +10,7 @@
 // })
 
 // document.addEventListener('click', (e) =>{
-//     const valeur = e.target.dataset.key;
+//     const valeur = e.target.dataset.key; 
 //     calculer(valeur)
 
 // })
@@ -49,7 +49,7 @@ let affichage = "";
 let operation = null;
 // let memoire; // On initialise la mémoire
 
-window.onload = () => {
+window.onload = () => {    //The onload event occurs when an object has been loaded.
     let touches = document.querySelectorAll("button"); // On écoute les clics sur les touches
     for(let touche of touches){
         touche.addEventListener("click", gererTouches);
@@ -65,7 +65,9 @@ function gererTouches(event){
     let touche;
 
     //liste les touches autorisées
-    const listeTouches = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "+", "-", "*", "/", ".", "Enter", "Escape"];
+    const listeTouches = ["0", "1", "2", "3", "4", "5",
+    "6", "7", "8", "9", "+", "-", "*", "/", ".",
+    "Enter", "Escape"];
 
     // vérification de l'évènement "keydown"
     if(event.type === "keydown"){
@@ -125,6 +127,10 @@ function gererTouches(event){
  * @param {number} nb2 
  * @param {string} operation 
  * @returns number
+ * 
+ * The @ param tag provides the name, type, and description of a function parameter. The
+ *  @ param tag requires you to specify the name of the parameter you are documenting. 
+ * You can also include the parameter's type, enclosed in curly brackets, and a description of the parameter.
  */
 function calculer(nb1, nb2, operation){
     nb1 = parseFloat(nb1);
